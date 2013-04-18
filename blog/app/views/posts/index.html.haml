@@ -17,8 +17,9 @@
     %tr
       %td= post.name
       %td= post.surname
-      %td= post.image
-      %td= post.webpage
+      %td
+        %img{:src=>post.image}
+      %td= link_to "webpage", post.webpage
       %td= post.age
       %td= post.extra_content
       %td= post.height
