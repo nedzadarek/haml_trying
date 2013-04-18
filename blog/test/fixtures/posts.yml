@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  surname: MyString
+  image: MyString
+  webpage: MyString
+  age: 1
+  extra_content: MyText
+  height: 9.99
+
+two:
+  name: MyString
+  surname: MyString
+  image: MyString
+  webpage: MyString
+  age: 1
+  extra_content: MyText
+  height: 9.99
